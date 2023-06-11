@@ -34,6 +34,17 @@ public class EventManager : MonoBehaviour
     public int AnoMinimoAleatorio =1221;
     public int AnoMaximoAleatorio = 1900;
 
+    public int Vegetais;
+    public int Animal;
+    public int Pedra;
+    public int Mana;
+    public int Madeira;
+    public int Pessoas;
+    public int MaisLonge;
+    public int TipodeEventoEscolhido;
+    public List<int> recursos;
+
+
     private void Awake()
     {
         foreach (var evento in eventSO.Eventos)
@@ -54,6 +65,14 @@ public class EventManager : MonoBehaviour
     void Start()
     {
         BotaoContinuar.onClick.AddListener(ProximaMensagem);
+        recursos.Add(Vegetais);
+        recursos.Add(Animal);
+        recursos.Add(Madeira);
+        recursos.Add(Pedra);
+        recursos.Add(Mana);
+        recursos.Add(Pessoas);
+
+        MaisLonge = recursos[0];
     }
 
     void Update()
@@ -61,9 +80,69 @@ public class EventManager : MonoBehaviour
         evento();
         eventoRepete();
     }
+
+    public int EscolheTipodeEvento()
+    {
+        Vegetais = ResourceManager.RManager.Vegetal;
+        Animal = ResourceManager.RManager.Animal;
+        Madeira = ResourceManager.RManager.Madeira;
+        Pedra = ResourceManager.RManager.Pedra;
+        Mana = ResourceManager.RManager.Marvita;
+        Pessoas = ResourceManager.RManager.Pessoas;
+        
+        int sum = 0;
+
+        for (int i = 0; i < recursos.Count; i++)
+        {
+            sum += recursos[i];
+          
+        }
+
+        int media = sum / recursos.Count;
+        double distancia = Mathf.Abs(recursos[0] - media);
+
+        for (int i = 1; i < recursos.Count; i++)
+        {
+            double DistanciaAtual = Mathf.Abs(recursos[i] - (int)media);
+
+            if (DistanciaAtual > distancia)
+            {
+                distancia = DistanciaAtual;
+                MaisLonge = recursos[i];
+            }
+
+        }
+        return MaisLonge;
+    }
+
+
     void evento()
     {
-        
+        EscolheTipodeEvento();
+        if(MaisLonge == 0)
+        {
+            eventSO.Eventos = eventSO.EventosMadeira;
+        }
+        else if (MaisLonge == 1)
+        {
+            eventSO.Eventos = eventSO.EventosPedra;
+        }
+        else if (MaisLonge == 2)
+        {
+            eventSO.Eventos = eventSO.EventosMana;
+        }
+        else if (MaisLonge == 3)
+        {
+            eventSO.Eventos = eventSO.EventosPessoas;
+        }
+        else if (MaisLonge == 4)
+        {
+            eventSO.Eventos = eventSO.EventosVegetais;
+        }
+        else
+        {
+            eventSO.Eventos = eventSO.EventosAnimal;
+        }
         eventos eventoAtual = eventSO.Eventos.Find(e => e.dia == Calendar.date.day && e.mes == Calendar.date.month && e.ano == Calendar.date.year && e.Repete == false);
         
         if (eventoAtual != null)

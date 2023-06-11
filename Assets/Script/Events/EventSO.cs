@@ -9,6 +9,14 @@ using UnityEngine;
 public class EventSO : ScriptableObject
 {
     public List<eventos> Eventos;
+    public List<eventos> EventosMadeira;
+    public List<eventos> EventosVegetais;
+    public List<eventos> EventosPedra;
+    public List<eventos> EventosAnimal;
+    public List<eventos> EventosMana;
+    public List<eventos> EventosPessoas;
+
+
 }
 [Serializable]
 public class eventos
@@ -46,7 +54,7 @@ public class eventos
     public bool Repete;
     [Header("se true o evento surge em uma data aleatoria")]
     [Header("se marcar repetição e aleatoriedade ele vai repetir com base na data aleatoria como inicio")]
-    
+    public int pesodoevento;
     public bool Aleatorio;
     
 }
