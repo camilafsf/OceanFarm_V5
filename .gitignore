@@ -32,3 +32,6 @@ crashlytics-build.properties
 
 # other #
 Thumbs.db
+*.log
+*.log
+*.log
