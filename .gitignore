@@ -1,0 +1,34 @@
+# Unity generated #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+
+# VSCode generated #
+.vscode/
+
+# build files #
+*.apk
+*.aab
+*.sln
+*.suo
+*.user
+*.userprefs
+*.dll
+*.pdb
+*.unityproj
+*.csproj
+*.meta
+
+# MacOS generated #
+.DS_Store
+
+# Crashlytics generated #
+crashlytics-build.properties
+
+# JetBrains generated #
+.idea/
+*.iml
+
+# other #
+Thumbs.db

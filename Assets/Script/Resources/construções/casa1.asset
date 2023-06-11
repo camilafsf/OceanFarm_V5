@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d1ee819779965419f281e7c9d14248, type: 3}
+  m_Name: casa1
+  m_EditorClassIdentifier: 
+  Image: {fileID: 21300000, guid: 52374d96988e84b4bb99707a9ce8aea0, type: 3}
+  prefabBuild: {fileID: 6870096747170817055, guid: d8b3164b3d00e64428690d8aaa1467a0, type: 3}
+  tempo: 7
+  teste: testando0
+  MadeiraGastoC: 10
+  PedraGastoC: 50
+  ManaGastoC: 50
+  PessoaGastoC: 10
+  EstaConstruindo: 0
+  Posicionado: 0
+  Madeira: 0
+  Pedra: 0
+  mana: 0
+  Pessoas: 10
+  marvita: 0
+  vegetal: 0
+  animal: 0
+  PodeGerar: 0
+  MadeiraGasta: 0
+  PedraGasta: 0
+  ManaGasto: 0
+  PessoasGastas: 0
+  marvitaGastas: 5
+  vegetalGastos: 5
+  animalGastos: 5

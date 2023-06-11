@@ -1,0 +1,519 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6d4c4bb9cbfa004c890084a43fe887b, type: 3}
+  m_Name: Criador de Eventos
+  m_EditorClassIdentifier: 
+  Eventos:
+  - NomeDoEvento: Boas Vindas
+    nome:
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    - Poseidon
+    TextoDeCorpo:
+    - "Bem vindo ao OCEAN FARM, eu sou Poseidon, sim aquele mesmo o deus, enfim novo
+      administrador vou ter ensinar o b\xE1sico que voc\xEA precisa saber, clique
+      em \"Continuar\"."
+    - "Primeiro me deixa te introduzir ao seu trabalho, como sabe Atl\xE2ntida est\xE1
+      passando por... bem alguns probleminhas que totalmente n\xE3o s\xE3o por minha
+      culpa, tipo n\xE3o mesmo."
+    - "De qualquer forma voc\xEA tem a ilustre oportunidade (e obriga\xE7\xE3o) de
+      criar uma col\xF4nia com intuito de prover a necessidades crescentes do nosso
+      povo."
+    - "Enfim bl\xE1 bl\xE1 administrativo a parte vamos a pr\xE1tica, todo fim de
+      ano vou cobrar comida vegetal e animal de voc\xEA para meus banque... digo
+      para o povo, eu at\xE9 posso te dar uma colher de ch\xE1 uma vez mas se passar
+      de duas vezes sem voc\xEA me entregar\u2026 "
+    - "Bem digamos que o meu querido Krakenzinho vai ter uma refei\xE7\xE3o de gal\xE3,
+      enfim o seu prazo pode ser visto pela barra inferior, quando vazia \xE9 hora
+      da entrega!"
+    - "Voc\xEA tamb\xE9m tem no seu quanto superior direito a tabela de objetivos,
+      n\xE3o s\xE3o obrigat\xF3rios, mas voc\xEA recebe mais Estrelas ao cumprir
+      eles."
+    - "No quanto superior esquerdo tem essa tabela com simbolos estranhos e n\xFAmeros,
+      ali voc\xEA pode gerenciar tanto seus alimentos deliciosos quanto outros recursos
+      que s\xE3o importantes para produzir meus petiscos."
+    - "Por fim t\xE1 vendo esses bot\xF5es ai no lado esquerdo da tela, voc\xEA pode
+      usar eles para construir, afinal nada cresce do nada."
+    - "Hum... acho que \xE9 tudo que voc\xEA precisa saber, pelo menos no meu roteiro
+      aqui n\xE3o tem mais nada, bom se tivesse algo para falar Celena teria escrito,
+      ent\xE3o boa sorte e se vira meu chegado!"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 184837756c5ce444f827c0bae3285575, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 63a0f0f3bc974e9458d8503a6454b89a, type: 3}
+    - {fileID: 21300000, guid: ef3305b64396ca64faf9faa5f68443ae, type: 3}
+    - {fileID: 21300000, guid: 50f47fee7dd16c44abccaabb7bda81c3, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 3
+    mes: 1
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: A ilha de lixo
+    nome:
+    - 
+    TextoDeCorpo:
+    - "Uma ilha de lixo humano foi vista flutuando at\xE9 n\xF3s, de acordo com nossos
+      cientistas ela deve chegar em poucos dias devemos tomar uma a\xE7\xE3o por
+      favor escolha"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 24284fe1f4e44694fae4e1012edbe162, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: Gasta2Pessoa
+    TextoEscolha1: "Mande cidad\xE3os para coletar o lixo"
+    "Descri\xE7\xE3oEscolha1": Precisaremos usar nossos POPs para resolver esse problema
+      de forma eficaz (gasta 2 de POP)
+    EfeitoBotao2: ProdNeg
+    TextoEscolha2: Deixe acontecer
+    "Descri\xE7\xE3oEscolha2": "Quem somos n\xF3s para ficarmos contra a imprevisibilidade
+      do destino? que o curso natural seja feito (Efeito negativo em todas as produ\xE7\xF5es)"
+    dia: 16
+    mes: 1
+    ano: 1221
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: Celena o recebe
+    nome:
+    - Celena
+    - Celena
+    - Celena
+    - Celena
+    - Celena
+    TextoDeCorpo:
+    - "\xC9 um prazer finalmente v\xF3s conhecer filho de Atl\xE2ntida, sou Celena
+      filha de Atlas, descendente dos tit\xE3s e redentora do trono deixado por meu
+      pai."
+    - "Provavelmente deve estar se questionando o motivo de nosso contato, acredito
+      que Poseidon j\xE1 o tenha informado sobre o b\xE1sico mas o conhecendo ele
+      apenas deve ter jogado tudo em seu colo sem explicar muito. "
+    - "Pois para isso entrei em contato, para que entendesse a import\xE2ncia de
+      sua miss\xE3o, desde nossa queda aos mar\xE9s alimentar nosso irm\xE3os vem
+      sendo uma tarefa herc\xFAlea por\xE9m conseguimos sobreviver, dito isto n\xE3o
+      podemos sustentar mais o nosso crescimento apenas com magia. "
+    - "Para buscar uma solu\xE7\xE3o para isso entrei em contato com o Or\xE1culo
+      de Claria e me foi profetizado sobre voc\xEA. "
+    - "Sim sua chegada ao meu reino, e sua coloca\xE7\xE3o como administrador de
+      nossa col\xF4nia s\xE3o todos planos das Moiras, por\xE9m o futuro ainda n\xE3o
+      est\xE1 totalmente escrito, apesar de ser nossa \xFAnica chance de prevalecer
+      voc\xEA ainda n\xE3o tem garantias de sucesso, ent\xE3o como Rainha de Atl\xE2ntida
+      e m\xE3e-irm\xE3 de todos de meu povo pe\xE7o pela sua ajuda, providencie recursos
+      e permita a prosperidade de Atl\xE2ntida."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: ababa36d549d14c4c9effb2a1e3c9bc5, type: 3}
+    - {fileID: 21300000, guid: ababa36d549d14c4c9effb2a1e3c9bc5, type: 3}
+    - {fileID: 21300000, guid: eb8ceed26776e3a40a18ae8ea85844c7, type: 3}
+    - {fileID: 21300000, guid: 1ca334db1ec7ad64ab360a1d228697db, type: 3}
+    - {fileID: 21300000, guid: f6f6375abd1423b4b886fd66ceb0667e, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 21
+    mes: 1
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: Dica de Recursos
+    nome:
+    - Celena
+    - Celena
+    - Celena
+    TextoDeCorpo:
+    - "Meu caro irm\xE3o do destino, apenas queria lembra-lo de tomar cuidado com
+      seus recursos, todos eles tem sua import\xE2ncia mas alguns s\xE3o mais essenciais
+      que os outros."
+    - "A madeira por exemplo e a base de tudo, voc\xEA tem em m\xE3os agora uma certa
+      quantidade que te providenciamos, gaste-a para produzir mais madeira pois caso
+      fique sem e n\xE3o tenha uma forma de gerar mais ent\xE3o sua col\xF4nia ir\xE1
+      estagnar. "
+    - "Al\xE9m disso preste aten\xE7\xE3o a comida lembre-se que esse recurso determina
+      nosso futuro, espero ter lhe ajudado! que Eut\xE9quia sorria para ti."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 20
+    mes: 2
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: "Festival dos Mar\xE9s"
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "Mais que maravilha meu caro amigo, estamos novamente naquela \xE9poca magica
+      do ano, onde juntamos as fam\xEDlias, festejamos e trocamos presentes com quem
+      amamos, sim! isso mesmo o Festival dos Mar\xE9s eu e Celena preparamos um presente
+      para voc\xEA, espero que goste."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: f7cdb49612c221341977d90ae7b406c7, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: Aceitar presente
+    "Descri\xE7\xE3oEscolha1": que grande noticia, fico feliz de ser agraciado assim
+      (Efeito desconhecido)
+    EfeitoBotao2: 
+    TextoEscolha2: Negar presente
+    "Descri\xE7\xE3oEscolha2": "estou emocionado mas como governante n\xE3o devo
+      aceitar! (Sem efeitos)"
+    dia: 21
+    mes: 12
+    ano: 1221
+    Repete: 1
+    Aleatorio: 0
+  - NomeDoEvento: Entrega de Recursos
+    nome:
+    - Celena
+    TextoDeCorpo:
+    - "Administrador, venho at\xE9 seu encontro para ti lembrar que o fim de ano
+      se aproxima, tens menos de 6 meses para o tal, ent\xE3o devo o lembrar de se
+      certificar de armazenar recursos o suficiente para a coleta no fim do ano."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: f0d5d0742dc17474dbdc63465f136395, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 6
+    mes: 6
+    ano: 1221
+    Repete: 1
+    Aleatorio: 0
+  - NomeDoEvento: Submarinos ao ataque
+    nome: []
+    TextoDeCorpo:
+    - "Meu Lorde algumas m\xE1quinas de metal estranhas foram vistas ao redor de
+      nossa col\xF4nia, parece que dento delas tem habitantes da superf\xEDcie e
+      gra\xE7as a nossa magia de camuflagem n\xE3o fomo notados ainda, mas \xE9 quest\xE3o
+      de tempo o que devemos fazer?"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: cb0c1b8ad1087b349aad2e4f3e3a890e, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Re\xFAna as tropas e destrua as maquinas"
+    "Descri\xE7\xE3oEscolha1": "Ao fazer isso poderemos perder alguns homens mas
+      com certeza conseguiremos manter Atl\xE2ntida segura (Efeito negativo nos POPs)"
+    EfeitoBotao2: 
+    TextoEscolha2: Chame os magos e reforce nossa camuflagem
+    "Descri\xE7\xE3oEscolha2": "isso tomar\xE1 mais tempo sendo mais arriscado mas
+      \xE9 a \xFAnica solu\xE7\xE3o pacifica (Efeito desconhecido)"
+    dia: 2
+    mes: 1
+    ano: 1222
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: 'Crises do corais '
+    nome: []
+    TextoDeCorpo:
+    - "Poseidon que n\xF3s proteja! uma crise enorme, horr\xEDvel, tenebrosa. Corais!
+      sim meu bom Senhor algum idiota esqueceu de remover os corais ao redor de nossa
+      col\xF4nia, essa \xE9 uma crise sem igual antes! Porque est\xE3o destruindo
+      nossa bel\xEDssima paisagem!"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 0fddbc67415eac94dacdeb6d56a3427b, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: Pera, que?
+    "Descri\xE7\xE3oEscolha1": "Essa n\xE3o \xE9 uma situa\xE7\xE3o s\xE9ria (Efeito
+      desconhecido)"
+    EfeitoBotao2: 
+    TextoEscolha2: "Temos que agir! r\xE1pido!"
+    "Descri\xE7\xE3oEscolha2": Urgente, mobilizem homens e removam essa pragas! (Gasta
+      1 de POP)
+    dia: 18
+    mes: 4
+    ano: 1221
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: 'Muambas e Tranqueiras '
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "HA HA HA, A grande Dafne, a s\xE1bia entre as sabias acaba de chegar com uma
+      gigante variedade de produtos de alt\xEDssima qualidade que apenas aqueles
+      com sabedoria semelhantes conseguem apreciar, deseja ter a honra de me permitir
+      vender aqui? (por favorzinho)"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 73c0023eabd0036458d4b52aad0ae9d4, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: Venda
+    "Descri\xE7\xE3oEscolha1": "Se algu\xE9m quiser comprar esses trecos que compre"
+    EfeitoBotao2: 
+    TextoEscolha2: "N\xE3o Venda"
+    "Descri\xE7\xE3oEscolha2": "Voc\xEA tem alguma licen\xE7a?"
+    dia: 26
+    mes: 9
+    ano: 1222
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: Golfinhos vira latas
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "Lorde! estamos com problemas! por Poseidon golfinhos meu Lorde, golfinhos
+      vira latas est\xE3o revirando o lixo de nossos residentes e espalhando por
+      a\xED, tem no\xE7\xE3o do qu\xE3o ruim e andar distra\xEDdo e de boca aberta
+      \xE9 de repente uma embalagem de KroskNock do lixo cair na sua boca? "
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 1fe8cd438693bb948b8bbf6674e319dc, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: 
+    TextoEscolha1: "Feche a boca ent\xE3o"
+    "Descri\xE7\xE3oEscolha1": "Eu sou um administrador n\xE3o um domador de vira
+      latas (Risco de perda de colheita devido ao lixo espalhado)"
+    EfeitoBotao2: 
+    TextoEscolha2: Resolverei isso
+    "Descri\xE7\xE3oEscolha2": Devo mandar algumas equipes para resgatar e treinar
+      os golfinhos (Gasta POPs e Efeito desconhecido
+    dia: 7
+    mes: 1
+    ano: 1222
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: "Fugitivo do T\xE1rtaro "
+    nome:
+    - ...
+    - ...
+    TextoDeCorpo:
+    - "Finalmente livre de meu tormento, enfim livre do t\xE1rtaro\u2026 quem?\u2026
+      quem est\xE1 ai? ser\xE1 poss\xEDvel?"
+    - "N\xF3s veremos novamente...."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 36e55ff5878a33b45a54e8d3d9e79bae, type: 3}
+    - {fileID: 21300000, guid: 36e55ff5878a33b45a54e8d3d9e79bae, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 2
+    mes: 3
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: Atlas ressurge
+    nome:
+    - Atlas
+    - Atlas
+    - Atlas
+    TextoDeCorpo:
+    - "Voc\xEA? novamente? entendo ent\xE3o voc\xEA deve ser aquele com destino de
+      Atl\xE2ntida nas costas, bom\u2026 que azar."
+    - "Quem sou eu? ah perdoe-me pela descortesia, me chamam de Atlas j\xE1 a muito
+      tempo reinei sobre essas terras, at\xE9 que fui condenado ao t\xE1rtaro \xE9
+      obrigado por aquele pirralho metido a carregar os c\xE9us em minhas costas,
+      mas depois de eras consegui enganar um lacaio dos deuses a me substituir. "
+    - "Mas\u2026 pensei que estivesse totalmente liberto ontem mas aparentemente
+      as Moiras j\xE1 sabiam de minha fuga e fizeram quest\xE3o de prender minha
+      ess\xEAncia em um de seus orbes, aparentemente terei que lhe ajudar em sua
+      tarefa destinada, mas ao menos n\xE3o tenho o c\xE9u em minhas costas."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 36e55ff5878a33b45a54e8d3d9e79bae, type: 3}
+    - {fileID: 21300000, guid: 36e55ff5878a33b45a54e8d3d9e79bae, type: 3}
+    - {fileID: 21300000, guid: 36e55ff5878a33b45a54e8d3d9e79bae, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 4
+    mes: 3
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: Dica de eventos
+    nome:
+    - Dafne
+    - Dafne
+    TextoDeCorpo:
+    - "Opa beleza chefia? ent\xE3o s\xF3 passando para te dar um conselho cheio da
+      minha sabedoria, muitos eventos podem acontecer \xE9 muito podem gastar seus
+      recursos."
+    - "Tome cuidado para n\xE3o gastar demais sem perceber, ent\xE3o n\xE3o gaste
+      loucamente ( a menos que seja a luta de gladiadores nesse caso gaste loucamente
+      porque \xE9 muito legal)."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 8cb70811e9fefcc45988ebb31b7fbbc6, type: 3}
+    - {fileID: 21300000, guid: 8cb70811e9fefcc45988ebb31b7fbbc6, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 6
+    mes: 3
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: "Atlas o tit\xE3"
+    nome:
+    - Poseidon
+    - Poseidon
+    TextoDeCorpo:
+    - "Bom meu caro? ent\xE3o\u2026 ouvi algumas noticias falando que Atlas o pai
+      da Celena fugiu do T\xE1rtaro. "
+    - "E tipo toma cuidado, ele n\xE3o \xE9 bem perigoso mas pode ser um p\xE9ssimo
+      convidado, ent\xE3o se voc\xEA o ver esconda seus recursos que ele gasta muito."
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: ccd49e7dac13a204da680fc003115391, type: 3}
+    - {fileID: 21300000, guid: ccd49e7dac13a204da680fc003115391, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: 
+    "Descri\xE7\xE3oEscolha1": 
+    EfeitoBotao2: 
+    TextoEscolha2: 
+    "Descri\xE7\xE3oEscolha2": 
+    dia: 15
+    mes: 3
+    ano: 1221
+    Repete: 0
+    Aleatorio: 0
+  - NomeDoEvento: 'Sapecagens penosas '
+    nome:
+    - Atlas
+    TextoDeCorpo:
+    - "Ah\u2026 oi.. voc\xEA por aqui? n\xE3o que voltar outra hora? n\xE3o n\xE9,
+      urgh\u2026 ok ok eu assumo talvez eu tenha botado fogo sem querer em alguns
+      dos seus documentos e tals, mas em minha defesa eu sou pai da sua chefe beleza?"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: f654cb6a4334f65458946fdc17d21ff0, type: 3}
+    BotaoContinuar: 0
+    EfeitoBotao1: Gasta madeira
+    TextoEscolha1: Reponha
+    "Descri\xE7\xE3oEscolha1": 'Vou ter que repor meus documentos '
+    EfeitoBotao2: Gasta muito mais madeira e tem outro Efeito desconhecido
+    TextoEscolha2: Reponha com sobras
+    "Descri\xE7\xE3oEscolha2": 'Vou repor meus documento e comprar algumas sobras '
+    dia: 14
+    mes: 6
+    ano: 1222
+    Repete: 0
+    Aleatorio: 1
+  - NomeDoEvento: O Deus folgado
+    nome:
+    - Poseidon
+    TextoDeCorpo:
+    - "Opa olha se n\xE3o \xE9 meu chegado! Celena me fala bastante dos seus feitos,
+      administrador bl\xE1 bl\xE1 e tudo mais, enfim eu estava passando por perto
+      aqui da col\xF4nia e bateu uma fome\u2026"
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: Gasto de alimentos
+    TextoEscolha1: Mostre hospitalidade
+    "Descri\xE7\xE3oEscolha1": 'Preparem as mesas que hoje festejaremos com Poseidon '
+    EfeitoBotao2: Gasto de recursos
+    TextoEscolha2: Aceita uma oferenda?
+    "Descri\xE7\xE3oEscolha2": "Infelizmente nossa comida est\xE1 limitada  ent\xE3o
+      ofereceremos recursos como oferenda"
+    dia: 3
+    mes: 4
+    ano: 1222
+    Repete: 1
+    Aleatorio: 0
+  - NomeDoEvento: 'Tempo dos gladiadores '
+    nome:
+    - Dafne
+    TextoDeCorpo:
+    - "Finalmente a melhor \xE9poca do ano o desafio dos gladiadores, voc\xEA n\xE3o
+      sabe quanto tempo esperei para que pudesse ver aqueles homens sarados e semi\u2026
+      quer dizer quanto tempo esperei para ver as lutas, enfim os agenciadores do
+      evento requisitam alimentos para dar aos gladiadores. "
+    ImagemCentral:
+    - {fileID: 21300000, guid: 7339ba310760a4147a21afd66a0059d4, type: 3}
+    ImagemDeCorpo:
+    - {fileID: 21300000, guid: 1483e277d147bc8469f1c64b24fdca55, type: 3}
+    BotaoContinuar: 1
+    EfeitoBotao1: 
+    TextoEscolha1: Sem evento este ano
+    "Descri\xE7\xE3oEscolha1": "Os recursos est\xE3o escassos ent\xE3o festividades
+      suspensas"
+    EfeitoBotao2: -100 de alimentos
+    TextoEscolha2: "P\xE3o, circo e coliseu"
+    "Descri\xE7\xE3oEscolha2": que comecem as batalhas
+    dia: 10
+    mes: 5
+    ano: 1222
+    Repete: 1
+    Aleatorio: 0
